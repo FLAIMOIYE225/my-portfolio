@@ -1,0 +1,100 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-header-container {
+    text-align: center; /* text-center */
+    max-width: 42rem; /* max-w-2xl (environ 672px pour éviter que les lignes de texte soient trop longues) */
+    margin: 0 auto 4rem auto; /* mx-auto et mb-16 (4rem = 64px) */
+    
+    /* Crée un espacement vertical régulier entre les enfants (space-y-4) */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* 1rem = 16px */
+
+    /* Animation d'apparition fluide (fade-in + slide-up) extraite de ton style en ligne */
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+    will-change: opacity, transform;
+    transition: opacity 350ms cubic-bezier(0.33, 1, 0.68, 1), 
+                transform 350ms cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+/* Le petit label (ex: "Featured Projects") */
+.section-header-container .section-label {
+    display: inline-block;
+    /* font-size: 0.875rem; */ /* text-sm */
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase; /* Donne un style plus professionnel */
+    letter-spacing: 0.05em; /* Écarte légèrement les lettres */
+    color: #f2b75f; /* Utilise ta couleur dorée/orange fétiche pour rappeler ton design ! */
+}
+
+/* 1. On donne une taille fixe au bloc de la photo (ajuste selon tes besoins) */
+.picture {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center; /* Centre le conteneur horizontalement dans sa zone */
+    align-items: center;     /* Centre le conteneur verticalement */
+}
+
+/* 2. Le conteneur de l'image (Arrondi + Ombre) */
+.picture .image-container {
+    width: 320px;           /* Largeur fixe pour faire un beau cercle/carré arrondi */
+    height: 320px;          /* Hauteur identique à la largeur */
+    
+    background-color: white; /* Tu pourras enlever le aqua une fois que ça te plaît ! */
+    
+    border-radius: 24px;    /* Arrondit les angles du conteneur (mets 50% pour un cercle parfait) */
+    overflow: hidden;       /* CRUCIAL : Coupe l'image pour qu'elle épouse l'arrondi du conteneur */
+
+    /* Une ombre légère mais bien visible */
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+    
+    /* Centre l'image à l'intérieur du conteneur */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* TESTS */
+    padding: 20px;
+    /* END TESTS */
+}
+
+/* 3. L'image en elle-même */
+.picture .image-container img {
+    /* width: 100%;
+    height: 100%; */
+    object-fit: cover;      /* Force l'image à remplir le conteneur sans se déformer */
+    object-position: center; /* Centre le visage/sujet de la photo */
+
+    /* TESTS */
+    width: 90%;
+    height: 90%;
+    transition: all .8s ease; /* transition-colors duration-300 */
+    /* END TESTS */
+}
+.picture .image-container:hover img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Le petit point vert */
+.status-dot {
+    width: 10px; /* Équivalent à w-2.5 (10px) */
+    height: 10px; /* Équivalent à h-2.5 (10px) */
+    border-radius: 50%; /* rounded-full */
+    background-color: #22c55e; /* bg-green-500 */
+    
+    /* Déclenchement de l'animation de halo lumineux */
+    animation: pulseGlow 2s infinite ease-in-out; 
+}

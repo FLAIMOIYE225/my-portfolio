@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Conception",
+    "skills": [
+      {"id": "entr-arch", "name": "Entreprise Architect"}, 
+      {"id": "lucidchart", "name": "Lucidchart"}, 
+      {"id": "mermaid-live", "name": "Mermaid Live Editor"}
+    ]
+  },
+  {
+    "title": "Development",
+    "skills": [
+      {"id": "nodejs", "name": "Node.js"},
+      {"id": "mongodb", "name": "MongoDB"},
+      {"id": "express", "name": "Express"},
+      {"id": "react", "name": "React"},
+      {"id": "javascript", "name": "JavaScript"},
+      {"id": "python", "name": "Python"},
+      {"id": "fastapi", "name": "FasAPI"},
+      {"id": "django", "name": "Django"},
+      {"id": "mysql", "name": "MySql"},
+      {"id": "postgres-supabase", "name": "Postgres/Supabase"},
+      {"id": "tailwindcss", "name": "Tailwind CSS"},
+      {"id": "html-css", "name": "HTML & CSS"}
+    ]
+  },
+  {
+    "title": "Tools & Platforms",
+    "skills": [
+      {"id": "git", "name": "Git"},
+      {"id": "github", "name": "GitHub"},
+      {"id": "vercel", "name": "Vercel"},
+      {"id":"render", "name": "Render"},
+      {"id": "docker", "name": "Docker"},
+      {"id":"appwrite", "name": "Appwrite"}
+    ]
+  }
+]

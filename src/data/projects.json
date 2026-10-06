@@ -1,0 +1,41 @@
+[
+    {
+        "image": "myshowcase.png", 
+        "name": "My Showcase",
+        "description": "This e-commerce website project is a self-directed learning initiative. I used several technologies, including HTML, CSS, Django, Bootstrap, and JavaScript, to create a simple, functional platform. This project allowed me to develop web development skills, understand client-server interactions, and put my knowledge into practice. The site is still under development.",
+        "tags": ["Web", "E-commerce", "Backend", "Featured"],
+        "technologie": [
+            {"name":"Django", "id": "django"}, 
+            {"name":"Python", "id": "python"},
+            {"name":"HTML", "id": "html"},
+            {"name":"CSS", "id":"css"},
+            {"name":"Bootstrap", "id":"bootstrap"}
+        ],
+        "link": "https://koffidevweb.pythonanywhere.com/"
+    },
+    {
+        "image": "movie_app.png", 
+        "name": "Movie App",
+        "description": "MovieApp is a minimalist web application developed using React.js as part of a training project designed to strengthen my front-end development skills. It allows users to search for movies via the TMDB (The Movie Database) API and display key information about them: title, rating, language, release year, and a list of the most searched-for movies. The main goal of this project was to familiarize myself with consuming REST APIs, state management in React, and structuring simple and effective interfaces. To enhance the user experience, I used Appwrite, an open-source Backend-as-a-Service platform, which allowed me to set up a system similar to Netflix’s to display a list of the most popular movies. Thanks to its modular features accessible via API, Appwrite provided me with a structured framework to explore the integration of lightweight backend services into a modern application.",
+        "tags": ["Web", "BAAS"],
+        "technologie": [
+            {"name":"React", "id":"react"}, 
+            {"name":"Appwrite", "id":"appwrite"}, 
+            {"name":"TMDB API", "id":"tmdb-api"}
+        ],
+        "link": "https://koffi-flaimoiye-movieapp.netlify.app/"
+    },
+    {
+        "image": "finboard.png", 
+        "name": "Financial Board",
+        "description": "Financial Board is a web application designed to manage daily financial flows, tracking both incoming and outgoing transactions. The main objective of this project was to strengthen my backend development skills by implementing secure and structured APIs. It includes role management and endpoint protection to ensure that only authorized users can perform specific actions. For authentication and authorization, I used JWT, while FastAPI served as the backbone of the backend. On the frontend, React was used to build a clear and responsive interface. This project allowed me to explore advanced concepts in backend security, API design, and full-stack integration.",
+        "tags": ["Web", "Backend", "API", "Python", "Featured"],
+        "technologie": [
+            {"name":"FastAPI", "id":"fastapi"},
+            {"name":"React", "id":"react"},
+            {"name":"Supabase", "id":"postgres-supabase"},
+            {"name":"JWT", "id":"jwt"}
+        ],
+        "link": "https://finboard.vercel.app/login?email=admin@gmail.com&password=12345678"
+    }
+]

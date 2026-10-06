@@ -1,0 +1,26 @@
+[
+    {
+      "role": "Full-Stack Developer",
+      "company": {"name":"WEBCOM", "website":"https://www.webcom.ma/"},
+      "isInternship": true,
+      "period": "June 2025 – October 2025",
+      "description": "Design and development of interactive documentation for the API of WEBCOM's e-commerce platform.",
+      "highlights": [
+        "Built an interactive API documentation platform to streamline third-party developer integration using React.",
+        "Developed a secure admin dashboard to dynamicly manage, create, and update API endpoints in documentation usiing React and Express.js.",
+        "Implemented a one-click production deployment workflow for instant documentation updates."
+      ]
+    },
+    {
+      "role": "Full-Stack Developer",
+      "company": {"name":"NUPSOL", "website":"https://www.nupsol.com/"},
+      "isInternship": true,
+      "period": "2025 (24 days)",
+      "description": "Maintained and optimized a web-based personnel management application.",
+      "highlights": [
+        "Collaborated with a senior team to fix bugs and implement new functional features.",
+        "Maintained and enhanced the Rest API backend using Express.js.",
+        "Optimized and updated the application's user interface using React."
+      ]
+    }
+]

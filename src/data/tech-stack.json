@@ -1,0 +1,130 @@
+{
+  "entr-arch": {
+    "name": "Entreprise Architect",
+    "link": "https://sparxsystems.com/products/ea/"
+  },
+  "lucidchart": {
+    "name": "Lucidchart",
+    "link": "https://www.lucidchart.com/pages"
+  },
+  "mermaid-live": {
+    "name": "Mermaid Live Editor",
+    "link": "https://mermaid.live"
+  },
+  "html": {
+    "name": "HTML",
+    "link": "https://developer.mozilla.org/docs/Web/HTML"
+  },
+  "css": {
+    "name": "CSS",
+    "link": "https://developer.mozilla.org/docs/Web/css"
+  },
+  "javascript": {
+    "name": "JavaScript",
+    "link": "https://developer.mozilla.org/docs/Web/JavaScript"
+  },
+  "react": {
+    "name": "React",
+    "link": "https://react.dev/"
+  },
+  "nextjs": {
+    "name": "Next.js",
+    "link": "https://nextjs.org/"
+  },
+  "nodejs": {
+    "name": "Node.js",
+    "link": "https://nodejs.org/"
+  },
+  "tailwindcss": {
+    "name": "Tailwind CSS",
+    "link": "https://tailwindcss.com/"
+  },
+  "gsap": {
+    "name": "GSAP",
+    "link": "https://greensock.com/gsap/"
+  },
+  "python": {
+    "name": "Python",
+    "link": "https://www.python.org/"
+  },
+  "mongodb": {
+    "name": "MongoDB",
+    "link": "https://www.mongodb.com/"
+  },
+  "postgres-supabase": {
+    "name": "Postgres/Supabase",
+    "link": "https://supabase.com/"
+  },
+  "aws-ec2": {
+    "name": "AWS EC2",
+    "link": "https://aws.amazon.com/ec2/"
+  },
+  "notion": {
+    "name": "Notion",
+    "link": "https://www.notion.so/"
+  },
+  "git": {
+    "name": "Git",
+    "link": "https://git-scm.com/"
+  },
+  "vercel": {
+    "name": "Vercel",
+    "link": "https://vercel.com/"
+  },
+  "telegram-bot-api": {
+    "name": "Telegram Bot API",
+    "link": "https://core.telegram.org/bots/api"
+  },
+  "docker": {
+    "name": "Docker",
+    "link": "https://www.docker.com/"
+  },
+  "gemini-ai": {
+    "name": "Gemini AI",
+    "link": "https://deepmind.google/technologies/gemini/"
+  },
+  "binance-api": {
+    "name": "Binance API",
+    "link": "https://binance-docs.github.io/apidocs/"
+  },
+  "mysql": {
+    "name": "MySql",
+    "link": "https://www.mysql.com/"
+  },
+  "github": { 
+    "name": "GitHub",
+    "link": "https://github.com"
+  },
+  "express": { 
+    "name": "Express",
+    "link": "https://expressjs.com/en/"
+  },
+  "fastapi": { 
+    "name": "FastAPI",
+    "link": "https://fastapi.tiangolo.com/"
+  },
+  "django": {
+    "name": "Django",
+    "link": "https://www.djangoproject.com/"
+  },
+  "render": {
+    "name": "Render",
+    "link": "https://render.com/"
+  },
+  "tmdb-api": {
+    "name": "TMDB API",
+    "link": "https://developer.themoviedb.org/docs/getting-started"
+  },
+  "jwt": {
+    "name": "JWT",
+    "link": "https://www.jwt.io/"
+  },
+  "bootstrap": {
+    "name": "Bootstrap",
+    "link": "https://getbootstrap.com/"
+  },
+  "appwrite": {
+    "name": "Appwrite",
+    "link": "https://appwrite.io/"
+  }
+}

@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+
+* {
+  /* margin: 0;
+  padding: 0; */ /* Ça crée des problème avec tailwind */
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+@theme {
+  --animate-float: float 3s ease-in-out infinite;
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+}
+
+
+html {
+  scroll-behavior: smooth; /* Active le défilement fluide sur tout le site */
+}
+
+body {
+  margin: 0;
+  overflow: auto;
+  font-family: Inter,system-ui,-apple-system,sans-serif;
+
+  background-color: #e9e7dc;
+}
+
+section {
+  /* Aligne le défilement en tenant compte de la hauteur de ton header (80px) */
+  scroll-margin-top: 80px; 
+}
+
+

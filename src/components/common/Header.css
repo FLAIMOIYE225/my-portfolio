@@ -1,0 +1,102 @@
+.header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 80px;
+    width: 90%;
+
+    /* margin: 0 auto; */
+    padding: 16px 60px;
+
+    position: sticky;
+    top: 0;
+
+    z-index: 1000;
+
+    width: 100%;
+
+    /* box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.089); */
+    /* TESTS */
+    /* background-color: brown; */
+    /* END TESTS */
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+
+    width: 200px;
+
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.profile-container:hover {
+    color: #f2b75f;
+}
+
+.profile-container .profile-picture {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+
+    border-radius: 20px;
+    border: 2px solid #e9e7dc;
+}
+
+.profile-container .name {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+
+    /* width: 400px; */
+    /* background-color: aqua; */
+}
+
+.contact-btn {
+    /* 1. Alignement parfait du texte et du SVG */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px; /* Équivalent à gap-2 (espace entre le texte et la flèche) */
+    
+    /* 2. Dimensions et Espacement */
+    padding: 10px 20px; /* Équivalent à py-2.5 px-5 */
+    border-radius: 9999px; /* Équivalent à rounded-full (parfaitement arrondi) */
+    /* On enlève width: 140px pour laisser le bouton respirer selon son contenu */
+
+    /* 3. Bordures et Reset */
+    outline: none;
+    border: none;
+    cursor: pointer;
+    
+    /* 4. Couleurs et Typographie */
+    font-size: 1rem;
+    font-weight: 600; /* Équivalent à font-semibold */
+    color: white; /* Équivalent à text-background (si ton fond est blanc) */
+    background-color: black; /* Équivalent à bg-foreground */
+    
+    /* 5. Ombres et Transitions animées */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1); /* shadow-lg */
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); /* duration-300 */
+
+    will-change: transform; /* Prépare le navigateur à l'animation */
+    transform: translateZ(0); /* Force l'accélération matérielle 3D */
+}
+
+/* Effets au Survol (Hover) */
+.contact-btn:hover {
+    background-color: #1a1a1a; /* Un noir légèrement plus clair (hover:bg-foreground/90) */
+    transform: translateY(-2px); /* Légère élévation (hover:-translate-y-0.5) */
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1); /* shadow-xl */
+}
+
+/* Gestion du SVG à l'intérieur */
+.contact-btn .arrow {
+    width: 16px;  /* Équivalent à w-4 (1rem = 16px) */
+    height: 16px; /* Équivalent à h-4 */
+    display: block;
+}

@@ -1,0 +1,107 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "techStack": "Tecnologías",
+    "about": "Sobre mí",
+    "contact": "Contacto"
+  },
+  "header": {
+    "profilePictureAlt": "Foto de KOFFI",
+    "letsTalk": "Hablemos",
+    "selectLanguage": "Seleccionar idioma"
+  },
+  "home": {
+    "statusLabel": "Estado",
+    "availability": "Disponible para trabajar",
+    "greeting": "Hola, soy",
+    "name": "KOFFI Flaimoiyé",
+    "introduction": "Estudiante de último año en ESTEM, especializado en ciencia de datos y desarrollo de software, y apasionado por las TIC. Estoy entusiasmado por seguir desarrollando mis habilidades a través de proyectos innovadores.",
+    "yearsExperience": "Años de experiencia",
+    "completedProjects": "Proyectos completados",
+    "collaborativeProjects": "Proyectos colaborativos",
+    "viewMyWork": "Ver mi trabajo",
+    "learnMore": "Saber más",
+    "profilePictureAlt": "Foto sobre mí"
+  },
+  "projects": {
+    "sectionLabel": "Proyectos destacados",
+    "description": "Descubre una selección de proyectos que muestran mis habilidades en desarrollo Web, Móvil e Inteligencia Artificial.",
+    "searchLabel": "Buscar proyectos, habilidades o tecnologías",
+    "searchPlaceholder": "Buscar proyectos, habilidades o tecnologías...",
+    "filterButton": "Filtrar",
+    "filterGroupLabel": "Filtrar proyectos por categoría",
+    "filters": {
+      "all": "Todos",
+      "featured": "Destacados",
+      "web": "Web",
+      "mobile": "Móvil",
+      "ai": "IA"
+    },
+    "projectAriaLabel": "Proyecto: {{name}}",
+    "projectImageAlt": "Captura de pantalla de {{name}}",
+    "addToFavorites": "Añadir a favoritos",
+    "viewProjectAriaLabel": "Ver {{name}} (se abre en una nueva pestaña)",
+    "technologiesUsed": "Tecnologías utilizadas"
+  },
+  "skills": {
+    "sectionLabel": "Habilidades y Tecnologías",
+    "description": "Mi stack diario para construir proyectos modernos Web, Móviles y de IA."
+  },
+  "about": {
+    "sectionLabel": "Sobre mí",
+    "title": "Estudiante de último año y Desarrollador Full Stack",
+    "profilePictureAlt": "Foto de perfil de KOFFI Flaimoiyé",
+    "paragraphOne": "Soy desarrollador de software y estudiante de ingeniería en ciencia de datos, apasionado por crear soluciones digitales confiables, escalables e impactantes. Mis intereses abarcan desde el desarrollo web y la ingeniería de software hasta la inteligencia artificial, el aprendizaje automático y los sistemas informáticos.",
+    "paragraphTwo": "Me gusta transformar ideas en aplicaciones funcionales mientras profundizo continuamente en cómo funciona la tecnología en su interior. Ya sea desarrollando una aplicación web, diseñando arquitecturas de software o explorando algoritmos de IA, me enfoco en escribir código limpio, resolver problemas complejos y crear soluciones eficientes.",
+    "paragraphThree": "Impulsado por la curiosidad y el compromiso con el aprendizaje continuo, exploro constantemente nuevas tecnologías, frameworks y metodologías para mejorar mis habilidades y construir proyectos significativos que combinen innovación, rendimiento y valor práctico."
+  },
+  "experience": {
+    "title": "Experiencia Profesional",
+    "description": "Esta sección destaca mi trayectoria académica, prácticas profesionales y experiencias basadas en proyectos que han moldeado mis habilidades en desarrollo de software.",
+    "internship": "Prácticas"
+  },
+  "contact": {
+    "validationError": "❌ Por favor, rellena todos los campos.",
+    "successMessage": "✅ ¡Mensaje enviado con éxito!",
+    "submitError": "❌ Algo salió mal. Por favor, inténtalo de nuevo.",
+    "connectionError": "❌ Error de conexión. Por favor, inténtalo de nuevo.",
+    "closeFormAriaLabel": "Cerrar formulario de contacto",
+    "title": "Ponte en contacto",
+    "downloadCvAriaLabel": "Descargar CV (se abre en una nueva pestaña)",
+    "downloadCv": "Descargar CV",
+    "introduction": "Estaré encantado de conectar contigo. Construyamos algo significativo juntos.",
+    "copyEmailAriaLabel": "Copiar correo electrónico al portapapeles",
+    "copied": "¡Copiado!",
+    "copy": "Copiar",
+    "githubName": "GitHub",
+    "linkedinName": "LinkedIn",
+    "githubAriaLabel": "GitHub (se abre en una nueva pestaña)",
+    "linkedinAriaLabel": "LinkedIn (se abre en una nueva pestaña)",
+    "nameLabel": "Tu nombre",
+    "namePlaceholder": "Tu nombre",
+    "emailLabel": "Tu correo electrónico",
+    "emailPlaceholder": "Tu correo electrónico",
+    "messageLabel": "Tu mensaje",
+    "messagePlaceholder": "Tu mensaje",
+    "sending": "Enviando...",
+    "sendMessage": "Enviar mensaje"
+  },
+  "footer": {
+    "role": "Desarrollador de Software y Estudiante",
+    "description": "Me gusta transformar ideas en aplicaciones funcionales mientras profundizo continuamente en cómo funciona la tecnología en su interior.",
+    "remoteLocation": "Remoto / GMT+1",
+    "navigationTitle": "Navegación",
+    "navigationAriaLabel": "Navegación del pie de página",
+    "aboutLink": "Sobre mí",
+    "connectTitle": "Conectar",
+    "githubName": "GitHub",
+    "linkedinName": "LinkedIn",
+    "githubAriaLabel": "GitHub (se abre en una nueva pestaña)",
+    "linkedinAriaLabel": "LinkedIn (se abre en una nueva pestaña)",
+    "email": "Correo electrónico",
+    "copyright": "© {{year}} {{name}}. Todos los derechos reservados.",
+    "madeWith": "Hecho a mano con React & Tailwind",
+    "scrollToTop": "Volver arriba"
+  }
+}

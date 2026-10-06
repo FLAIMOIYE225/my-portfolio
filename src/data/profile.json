@@ -1,0 +1,26 @@
+{
+  "name": "KOFFI Flaimoiyé",
+  "age": "21",
+  "cv": {
+    "url": "CV_KOFFI_FLAIMOIYE_MARC_JOSUE.pdf"
+  },
+  "contacts": {
+    "email": "flaimoiyekoffistage@gmail.com",
+    "phone": ""
+  },
+  "socials": {
+    "github": {
+      "platform": "GitHub",
+      "url": "https://github.com/flaimoiye225"
+    },
+    "linkedin": {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/koffi-flaimoiy%C3%A9-marc-josu%C3%A9-88a95b361/"
+    }
+	},
+  "status": {
+    "isAvailable": true,
+    "label": "Available for new projects",
+    "meta": "Timezone: GMT+1 · Response time: ~24h"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "navigation": {
+    "home": "Home",
+    "projects": "Projects",
+    "techStack": "Tech Stack",
+    "about": "About Me",
+    "contact": "Contact"
+  },
+  "header": {
+    "profilePictureAlt": "Photo of KOFFI",
+    "letsTalk": "Let's Talk",
+    "selectLanguage": "Select language"
+  },
+  "home": {
+    "statusLabel": "Status",
+    "availability": "Available to work",
+    "greeting": "Hello, I am",
+    "name": "KOFFI Flaimoiyé",
+    "introduction": "As a senior at ESTEM, specializing in data science and software development, and with a passion for ICT, I am eager to develop my skills through innovative projects.",
+    "yearsExperience": "Years Of Experience",
+    "completedProjects": "completed Projects",
+    "collaborativeProjects": "Collaborative projects",
+    "viewMyWork": "View my work",
+    "learnMore": "Learn more",
+    "profilePictureAlt": "Picture of me"
+  },
+  "projects": {
+    "sectionLabel": "Featured Projects",
+    "description": "Discover a selection of projects showcasing my skills in Web, Mobile, and AI development.",
+    "searchLabel": "Search projects, skills, or technologies",
+    "searchPlaceholder": "Search projects, skills, or technologies...",
+    "filterButton": "Filter",
+    "filterGroupLabel": "Filter projects by category",
+    "filters": {
+      "all": "All",
+      "featured": "Featured",
+      "web": "Web",
+      "mobile": "Mobile",
+      "ai": "AI"
+    },
+    "projectAriaLabel": "Project: {{name}}",
+    "projectImageAlt": "Screenshot of {{name}}",
+    "addToFavorites": "Add to favorites",
+    "viewProjectAriaLabel": "View {{name}} (opens in new tab)",
+    "technologiesUsed": "Technologies used"
+  },
+  "skills": {
+    "sectionLabel": "Skills & Tech Stack",
+    "description": "My day-to-day stack for building moderne Web, Mobile and AI projects."
+  },
+  "about": {
+    "sectionLabel": "About Me",
+    "title": "Senior Student & Full Stack Developper",
+    "profilePictureAlt": "KOFFI Flaimoiyé profile photo",
+    "paragraphOne": "I'm a Software Developer and Data Science Engineering student passionate about building reliable, scalable, and impactful digital solutions. My interests span from web development and software engineering to artificial intelligence, machine learning, and computer systems.",
+    "paragraphTwo": "I enjoy transforming ideas into functional applications while continuously deepening my understanding of how technology works under the hood. Whether I'm developing a web application, designing software architectures, or exploring AI algorithms, I focus on writing clean code, solving complex problems, and creating efficient solutions.",
+    "paragraphThree": "Driven by curiosity and a commitment to continuous learning, I constantly explore new technologies, frameworks, and methodologies to improve my skills and build meaningful projects that combine innovation, performance, and practical value."
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "description": "This section highlights my academic journey, internships, and project-based experiences that have shaped my skills in software development.",
+    "internship": "Internship"
+  },
+  "contact": {
+    "validationError": "❌ Please fill in all the fields.",
+    "successMessage": "✅ Message sent successfully!",
+    "submitError": "❌ Something went wrong. Please try again.",
+    "connectionError": "❌ Connection error. Please try again.",
+    "closeFormAriaLabel": "Close contact form",
+    "title": "Get in touch",
+    "downloadCvAriaLabel": "Download CV (opens in new tab)",
+    "downloadCv": "Download CV",
+    "introduction": "I’d be glad to connect with you, let’s build something meaningful together.",
+    "copyEmailAriaLabel": "Copy email to clipboard",
+    "copied": "Copied!",
+    "copy": "Copy",
+    "githubName": "GitHub",
+    "linkedinName": "LinkedIn",
+    "githubAriaLabel": "GitHub (opens in new tab)",
+    "linkedinAriaLabel": "LinkedIn (opens in new tab)",
+    "nameLabel": "Your name",
+    "namePlaceholder": "Your name",
+    "emailLabel": "Your email",
+    "emailPlaceholder": "Your email",
+    "messageLabel": "Your message",
+    "messagePlaceholder": "Your message",
+    "sending": "Sending...",
+    "sendMessage": "Send Message"
+  },
+  "footer": {
+    "role": "Software Developer & Student",
+    "description": "I enjoy transforming ideas into functional applications while continuously deepening my understanding of how technology works under the hood.",
+    "remoteLocation": "Remote / GMT+1",
+    "navigationTitle": "Navigation",
+    "navigationAriaLabel": "Footer navigation",
+    "aboutLink": "About",
+    "connectTitle": "Connect",
+    "githubName": "GitHub",
+    "linkedinName": "LinkedIn",
+    "githubAriaLabel": "GitHub (opens in new tab)",
+    "linkedinAriaLabel": "LinkedIn (opens in new tab)",
+    "email": "Email",
+    "copyright": "© {{year}} {{name}}. All rights reserved.",
+    "madeWith": "Handcrafted with React & Tailwind",
+    "scrollToTop": "Scroll to top"
+  }
+}

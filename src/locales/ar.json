@@ -1,0 +1,107 @@
+{
+  "navigation": {
+    "home": "الرئيسية",
+    "projects": "المشاريع",
+    "techStack": "التقنيات",
+    "about": "عني",
+    "contact": "تواصل معي"
+  },
+  "header": {
+    "profilePictureAlt": "صورة KOFFI",
+    "letsTalk": "لننتقل للحوار",
+    "selectLanguage": "اختر اللغة"
+  },
+  "home": {
+    "statusLabel": "الحالة",
+    "availability": "متاح للعمل",
+    "greeting": "مرحباً، أنا",
+    "name": "KOFFI Flaimoiyé",
+    "introduction": "طالب في السنة الأخيرة بمدرسة ESTEM ومتخصص في علوم البيانات وتطوير البرمجيات، وشغوف بتكنولوجيا المعلومات والاتصالات. أسعى دائماً لتطوير مهاراتي من خلال مشاريع مبتكرة.",
+    "yearsExperience": "سنوات الخبرة",
+    "completedProjects": "مشاريع منجزة",
+    "collaborativeProjects": "مشاريع مشتركة",
+    "viewMyWork": "تصفح أعمالي",
+    "learnMore": "معرفة المزيد",
+    "profilePictureAlt": "صورة شخصية"
+  },
+  "projects": {
+    "sectionLabel": "أبرز المشاريع",
+    "description": "استكشف مجموعة مختارة من المشاريع التي تعرض مهاراتي في تطوير الويب، التطبيقات المحمولة، والذكاء الاصطناعي.",
+    "searchLabel": "البحث في المشاريع أو المهارات أو التقنيات",
+    "searchPlaceholder": "ابحث عن مشاريع، مهارات، أو تقنيات...",
+    "filterButton": "تصفية",
+    "filterGroupLabel": "تصفية المشاريع حسب الفئة",
+    "filters": {
+      "all": "الكل",
+      "featured": "المميزة",
+      "web": "الويب",
+      "mobile": "المحمول",
+      "ai": "الذكاء الاصطناعي"
+    },
+    "projectAriaLabel": "مشروع: {{name}}",
+    "projectImageAlt": "لقطة شاشة لـ {{name}}",
+    "addToFavorites": "إضافة إلى المفضلة",
+    "viewProjectAriaLabel": "عرض {{name}} (يفتح في تبويب جديد)",
+    "technologiesUsed": "التقنيات المستخدمة"
+  },
+  "skills": {
+    "sectionLabel": "المهارات والتقنيات",
+    "description": "أدواتي وتقنياتي اليومية لبناء مشاريع ويب، تطبيقات محمولة، وذكاء اصطناعي حديثة."
+  },
+  "about": {
+    "sectionLabel": "نبذة عني",
+    "title": "طالب في السنة الأخيرة ومطور Full Stack",
+    "profilePictureAlt": "الصورة الشخصية لـ KOFFI Flaimoiyé",
+    "paragraphOne": "أنا مطور برمجيات وطالب هندسة في علوم البيانات، شغوف ببناء حلول رقمية موثوقة، قابلة للتطوير، وذات أثر ملموس. تتنوع اهتماماتي بين تطوير الويب وهندسة البرمجيات والذكاء الاصطناعي وتعلم الآلة وأنظمة الحاسوب.",
+    "paragraphTwo": "أستمتع بتحويل الأفكار إلى تطبيقات فعلية، مع الحرص المستمر على التعمق في كيفية عمل التكنولوجيا كواليس النظام. سواء كنت أطور تطبيق ويب، أو أصمم معماريات برمجية، أو أستكشف خوارزميات الذكاء الاصطناعي، فإن تركيزي ينصب على كتابة شفرة نظيفة، وحل المشكلات المعقدة، وتقديم حلول فعالة.",
+    "paragraphThree": "مدفوعاً بالفضول والالتزام بالتعلم المستمر، أستكشف دائماً تقنيات وأطر عمل ومناهج جديدة لتطوير مهاراتي وبناء مشاريع ذات قيمة تجمع بين الإبداع والأداء والمنفعة العملية."
+  },
+  "experience": {
+    "title": "الخبرة المهنية",
+    "description": "يسلط هذا القسم الضوء على مساري الأكاديمي، وتدريباتي، وخبراتي القائمة على المشاريع التي صقلت مهاراتي في تطوير البرمجيات.",
+    "internship": "تدريب"
+  },
+  "contact": {
+    "validationError": "❌ يرجى ملء جميع الحقول.",
+    "successMessage": "✅ تم إرسال الرسالة بنجاح!",
+    "submitError": "❌ حدث خطأ ما. يرجى المحاولة مرة أخرى.",
+    "connectionError": "❌ خطأ في الاتصال. يرجى المحاولة مرة أخرى.",
+    "closeFormAriaLabel": "إغلاق نموذج التواصل",
+    "title": "تواصل معي",
+    "downloadCvAriaLabel": "تحميل السيرة الذاتية (يفتح في تبويب جديد)",
+    "downloadCv": "تحميل السيرة الذاتية",
+    "introduction": "يسعدني التواصُل معك، لنبنِ شيئاً مميزاً معاً.",
+    "copyEmailAriaLabel": "نسخ البريد الإلكتروني إلى الحافظة",
+    "copied": "تم النسخ!",
+    "copy": "نسخ",
+    "githubName": "GitHub",
+    "linkedinName": "LinkedIn",
+    "githubAriaLabel": "GitHub (يفتح في تبويب جديد)",
+    "linkedinAriaLabel": "LinkedIn (يفتح في تبويب جديد)",
+    "nameLabel": "الاسم",
+    "namePlaceholder": "اسمك الكامل",
+    "emailLabel": "البريد الإلكتروني",
+    "emailPlaceholder": "بريدك الإلكتروني",
+    "messageLabel": "الرسالة",
+    "messagePlaceholder": "رسالتك...",
+    "sending": "جاري الإرسال...",
+    "sendMessage": "إرسال الرسالة"
+  },
+  "footer": {
+    "role": "مطور برمجيات وطالب",
+    "description": "أستمتع بتحويل الأفكار إلى تطبيقات فعلية مع الحرص المستمر على فهم التكنولوجيا والتعمق فيها.",
+    "remoteLocation": "عن بُعد / GMT+1",
+    "navigationTitle": "التنقل",
+    "navigationAriaLabel": "قائمة التنقل في أسفل الصفحة",
+    "aboutLink": "عني",
+    "connectTitle": "روابط التواصل",
+    "githubName": "GitHub",
+    "linkedinName": "LinkedIn",
+    "githubAriaLabel": "GitHub (يفتح في تبويب جديد)",
+    "linkedinAriaLabel": "LinkedIn (يفتح في تبويب جديد)",
+    "email": "البريد الإلكتروني",
+    "copyright": "© {{year}} {{name}}. جميع الحقوق محفوظة.",
+    "madeWith": "تم التطوير باستخدام React & Tailwind",
+    "scrollToTop": "العودة إلى الأعلى"
+  }
+}
